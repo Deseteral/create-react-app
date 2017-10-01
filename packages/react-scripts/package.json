@@ -1,6 +1,6 @@
 {
   "name": "@deseteral/react-scripts",
-  "version": "1.0.13-4",
+  "version": "1.0.13-5",
   "description": "Configuration and scripts for Create React App.",
   "repository": "Deseteral/create-react-app",
   "license": "BSD-3-Clause",
@@ -48,6 +48,7 @@
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-inline-svg": "^3.0.0",
     "postcss-loader": "2.0.6",
+    "postcss-nested": "^2.1.2",
     "promise": "8.0.1",
     "react-dev-utils": "^4.0.1",
     "style-loader": "0.18.2",
