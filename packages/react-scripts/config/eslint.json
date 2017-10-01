@@ -5,5 +5,8 @@
     "jest": true,
     "es6": true
   },
-  "extends": "airbnb"
+  "extends": "airbnb",
+  "rules": {
+    "dot-notation": "off"
+  }
 }
