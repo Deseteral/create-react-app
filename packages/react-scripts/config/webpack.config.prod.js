@@ -290,7 +290,7 @@ module.exports = {
     new webpack.DefinePlugin(Object.assign(
       {},
       env.stringified,
-      { SERVICE_URL: process.env.SERVICE_URL }
+      { SERVICE_URL: `"${process.env.SERVICE_URL}"` }
     )),
     // Minify the code.
     new webpack.optimize.UglifyJsPlugin({

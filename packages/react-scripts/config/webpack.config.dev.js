@@ -238,7 +238,7 @@ module.exports = {
     new webpack.DefinePlugin(Object.assign(
       {},
       env.stringified,
-      { SERVICE_URL: 'http://localhost:8080' }
+      { SERVICE_URL: '"http://localhost:8080"' }
     )),
     // This is necessary to emit hot updates (currently CSS only):
     new webpack.HotModuleReplacementPlugin(),
