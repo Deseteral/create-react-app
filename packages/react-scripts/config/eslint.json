@@ -11,6 +11,7 @@
   },
   "rules": {
     "dot-notation": "off",
-    "object-curly-newline": "off"
+    "object-curly-newline": "off",
+    "function-paren-newline": "off"
   }
 }
