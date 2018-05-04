@@ -5,11 +5,13 @@
     "jest": true,
     "es6": true
   },
+  "parser": "typescript-eslint-parser",
   "extends": "airbnb",
   "globals": {
     "SERVICE_URL": true
   },
   "rules": {
+    "no-undef": "off",
     "dot-notation": "off",
     "object-curly-newline": "off",
     "function-paren-newline": "off"
