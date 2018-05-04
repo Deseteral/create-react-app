@@ -20,7 +20,7 @@
     ],
     "import/resolver": {
       "node": {
-        "extensions": [".mjs", ".ts", ".js", ".json"]
+        "extensions": [".mjs", ".ts", ".tsx", ".js", ".json"]
       }
     }
   },
