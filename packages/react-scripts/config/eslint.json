@@ -10,8 +10,32 @@
   "globals": {
     "SERVICE_URL": true
   },
+  "settings": {
+    "import/extensions": [
+      ".mjs",
+      ".ts",
+      ".tsx",
+      ".js",
+      ".jsx"
+    ],
+    "import/resolver": {
+      "node": {
+        "extensions": [".mjs", ".ts", ".js", ".json"]
+      }
+    }
+  },
   "rules": {
     "no-undef": "off",
+    "import/extensions": ["error", "ignorePackages", {
+      "mjs": "never",
+      "ts": "never",
+      "tsx": "never",
+      "js": "never",
+      "jsx": "never"
+    }],
+    "react/jsx-filename-extension": ["error", {
+      "extensions": [".tsx", ".jsx"]
+    }],
     "dot-notation": "off",
     "object-curly-newline": "off",
     "function-paren-newline": "off"
